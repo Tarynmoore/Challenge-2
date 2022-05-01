@@ -3,6 +3,11 @@
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
+:root {
+    --outline: 3px dashed #b88069;
+    --background: #f5c5b0;
+}
+
 /*Places the image as a background, with slight rounded corners*/
 header {    
     text-align: center;
@@ -47,10 +52,10 @@ body {
 /*Background color and border*/
 .background {
     margin: 2em;
-    background-color: #f5c5b0;
+    background-color: var(--background);
     padding: 40px;
     border-radius: 20px;
-    outline: 3px dashed #b88069;    
+    outline: var(--outline);    
 }
 
 .text {
@@ -62,10 +67,10 @@ body {
 span {
     text-decoration: underline;
 }
-
+/* Avi picutre with an outline */
 img {
     margin: 2em;
-    outline: 3px dashed #b88069;
+    outline: var(--outline);
     border-radius: 30%;    
     max-height: 375px;
     max-width: 300px;
@@ -78,7 +83,7 @@ figure {
 .about-me {
    margin: 4em;
 }
-
+/* creates buttons with a background and border */
 button {
     background-size: cover;
     width: 200px;
@@ -86,12 +91,12 @@ button {
     font-size: 3em;
     padding-top: 15px;
     margin: 0 15px 20px 15px;
-    outline: 3px dashed #b88069;  
+    outline: var(--outline);  
     border-radius: 20px;    
 }
-
+/* When hovering over a button it changes colors around the edges */
 button:hover {
-    box-shadow: inset 0px 0px 8px #b88069, 0 0 15px #f5c5b0;
+    box-shadow: inset 0px 0px 8px #b88069, 0 0 15px var(--background);
 }
 
 .img1 {
