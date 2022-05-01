@@ -1,6 +1,6 @@
 GET TO KNOW ME 
 
-[Ch2 Screenshot-top](https://user-images.githubusercontent.com/101439331/166132313-025d19da-aa1e-456a-ad5c-6a8b0d9e2738.jpeg)
+![Ch2 Screenshot-top](https://user-images.githubusercontent.com/101439331/166132313-025d19da-aa1e-456a-ad5c-6a8b0d9e2738.jpeg)
 
 ![Ch2 screenshot-bottom](https://user-images.githubusercontent.com/101439331/166132307-455b36f4-a398-4451-bf2b-4f1346b97a57.jpeg)
 
